@@ -3,9 +3,9 @@ def convert(number):
     
     if number % 3 == 0 :
         result = "Pling"
-        if number % 5 == 0:
+        elif number % 5 == 0:
             result = "PlingPlang"
-        if number % 7 == 0:
+        elif number % 7 == 0:
             result = "PlingPlangPlong"
     elif number % 5 == 0:
         result = "Plang"
