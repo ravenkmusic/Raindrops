@@ -3,7 +3,7 @@ def convert(number):
     
     if number % 3 == 0 :
         result = "Pling"
-        elif number % 5 == 0:
+        if number % 5 == 0:
             result = "PlingPlang"
         if number % 7 == 0:
             result = "PlingPlangPlong"
