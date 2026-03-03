@@ -7,7 +7,7 @@ def convert(number):
             result = "PlingPlang"
         if number % 7 == 0:
             result = "PlingPlangPlong"
-    elif number % 5 == 0:
+    if number % 5 == 0:
         result = "Plang"
         if number % 7 == 0:
             result = "PlangPlong"
