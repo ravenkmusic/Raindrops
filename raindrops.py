@@ -11,7 +11,7 @@ def convert(number):
         result = "Plang"
         if number % 7 == 0:
             result = "PlangPlong"
-    elif number % 7 == 0:
+    if number % 7 == 0:
         result = "Plong"
         if number % 3 == 0:
             result = "PlingPlong"
