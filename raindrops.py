@@ -13,7 +13,7 @@ def convert(number):
             result = "PlangPlong"
     elif number % 7 == 0:
         result = "Plong"
-        elif number % 3 == 0:
+        if number % 5 != 0 and number % 3 == 0:
             result = "PlingPlong"
     else:
        result = str(number)
